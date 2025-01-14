@@ -116,18 +116,8 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
-
-interface PriceData {
-  commodity: string
-  unit: string
-  minimum: number
-  maximum: number
-  average: number
-  np_minimum: string
-  np_maximum: string
-  np_average: string
-  date: string
-}
+import { priceData as allPriceData } from '../assets/data/kalimati_prices'
+import type { PriceData } from '../assets/data/kalimati_prices'
 
 const priceData = ref<PriceData[]>([])
 const loading = ref(false)
@@ -198,46 +188,13 @@ function getCommonItemsData(type: 'vegetables' | 'fruits') {
 }
 
 async function loadPriceData() {
-  loading.value = true
-  error.value = ''
-  
-  try {
-    const response = await fetch(`/data/kalimati_prices_${selectedDate.value}.json`)
-    
-    // Check if response is JSON
-    const contentType = response.headers.get('content-type')
-    if (!contentType?.includes('application/json')) {
-      throw new Error('Price data not available for selected date')
-    }
-
-    if (!response.ok) {
-      throw new Error('Failed to load price data')
-    }
-
-    const data = await response.json()
-    
-    // Validate data structure
-    if (!Array.isArray(data) || data.length === 0) {
-      throw new Error('No price data available for selected date')
-    }
-
-    priceData.value = data
-
-  } catch (err) {
-    console.error('Error loading price data:', err)
-    
-    // Handle different error cases
-    if (err instanceof SyntaxError) {
-      error.value = 'Price data not available for selected date'
-    } else if (err instanceof Error) {
-      error.value = err.message
-    } else {
-      error.value = 'Failed to load price data'
-    }
-    
+  const data = allPriceData[selectedDate.value]
+  if (!data) {
+    error.value = 'Price data not available for selected date'
     priceData.value = []
-  } finally {
-    loading.value = false
+  } else {
+    error.value = ''
+    priceData.value = data
   }
 }
 
@@ -326,6 +283,17 @@ th, td {
   padding: 16px;
   text-align: left;
   border-bottom: 1px solid #e2e8f0;
+}
+
+/* Make commodity text darker for better contrast */
+td:first-child {
+  color: #111827; /* Very dark gray, almost black */
+  font-weight: 500;
+}
+
+/* Unit column styling */
+td:nth-child(2) {
+  color: #374151; /* Dark gray */
 }
 
 th {

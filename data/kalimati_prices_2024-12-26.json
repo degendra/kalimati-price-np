@@ -2,93 +2,159 @@
   {
     "commodity": "गोलभेडा ठूलो(भारतीय)",
     "unit": "केजी",
-    "minimum": 60,
-    "maximum": 70,
-    "average": 65,
-    "np_minimum": "६०.००",
-    "np_maximum": "७०.००",
-    "np_average": "६५.००",
-    "date": "2025-01-15"
+    "minimum": 80,
+    "maximum": 90,
+    "average": 85,
+    "np_minimum": "८०.००",
+    "np_maximum": "९०.००",
+    "np_average": "८५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "गोलभेडा सानो(लोकल)",
     "unit": "के.जी.",
-    "minimum": 18,
-    "maximum": 25,
-    "average": 22,
-    "np_minimum": "१८.००",
-    "np_maximum": "२५.००",
-    "np_average": "२२.००",
-    "date": "2025-01-15"
+    "minimum": 40,
+    "maximum": 60,
+    "average": 50,
+    "np_minimum": "४०.००",
+    "np_maximum": "६०.००",
+    "np_average": "५०.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "गोलभेडा सानो(भारतीय)",
     "unit": "के जी",
-    "minimum": 25,
-    "maximum": 35,
-    "average": 30,
-    "np_minimum": "२५.००",
-    "np_maximum": "३५.००",
-    "np_average": "३०.००",
-    "date": "2025-01-15"
+    "minimum": 70,
+    "maximum": 80,
+    "average": 75,
+    "np_minimum": "७०.००",
+    "np_maximum": "८०.००",
+    "np_average": "७५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "गोलभेडा सानो(तराई)",
     "unit": "के जी",
-    "minimum": 25,
-    "maximum": 35,
-    "average": 30,
-    "np_minimum": "२५.००",
-    "np_maximum": "३५.००",
-    "np_average": "३०.००",
-    "date": "2025-01-15"
+    "minimum": 65,
+    "maximum": 70,
+    "average": 67.67,
+    "np_minimum": "६५.००",
+    "np_maximum": "७०.००",
+    "np_average": "६७.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "आलु रातो",
     "unit": "के.जी.",
-    "minimum": 44,
-    "maximum": 47,
-    "average": 45.67,
-    "np_minimum": "४४.००",
-    "np_maximum": "४७.००",
-    "np_average": "४५.६७",
-    "date": "2025-01-15"
+    "minimum": 60,
+    "maximum": 65,
+    "average": 62.67,
+    "np_minimum": "६०.००",
+    "np_maximum": "६५.००",
+    "np_average": "६२.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "आलु रातो(भारतीय)",
     "unit": "के जी",
+    "minimum": 44,
+    "maximum": 46,
+    "average": 45,
+    "np_minimum": "४४.००",
+    "np_maximum": "४६.००",
+    "np_average": "४५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "आलु सेतो",
+    "unit": "के.जी.",
     "minimum": 40,
-    "maximum": 44,
-    "average": 42.33,
+    "maximum": 42,
+    "average": 41,
     "np_minimum": "४०.००",
-    "np_maximum": "४४.००",
-    "np_average": "४२.३३",
-    "date": "2025-01-15"
+    "np_maximum": "४२.००",
+    "np_average": "४१.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "प्याज सुकेको (भारतीय)",
     "unit": "के.जी.",
-    "minimum": 65,
-    "maximum": 68,
-    "average": 66.33,
-    "np_minimum": "६५.००",
-    "np_maximum": "६८.००",
-    "np_average": "६६.३३",
-    "date": "2025-01-15"
+    "minimum": 60,
+    "maximum": 65,
+    "average": 62.67,
+    "np_minimum": "६०.००",
+    "np_maximum": "६५.००",
+    "np_average": "६२.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "गाजर(लोकल)",
     "unit": "के.जी.",
-    "minimum": 70,
-    "maximum": 85,
-    "average": 76.67,
-    "np_minimum": "७०.००",
-    "np_maximum": "८५.००",
-    "np_average": "७६.६७",
-    "date": "2025-01-15"
+    "minimum": 100,
+    "maximum": 120,
+    "average": 110,
+    "np_minimum": "१००.००",
+    "np_maximum": "१२०.००",
+    "np_average": "११०.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "गाजर(तराई)",
+    "unit": "केजी",
+    "minimum": 100,
+    "maximum": 110,
+    "average": 105,
+    "np_minimum": "१००.००",
+    "np_maximum": "११०.००",
+    "np_average": "१०५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "बन्दा(लोकल)",
+    "unit": "के.जी.",
+    "minimum": 40,
+    "maximum": 60,
+    "average": 50,
+    "np_minimum": "४०.००",
+    "np_maximum": "६०.००",
+    "np_average": "५०.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "बन्दा(तराई)",
+    "unit": "केजी",
+    "minimum": 30,
+    "maximum": 40,
+    "average": 35,
+    "np_minimum": "३०.००",
+    "np_maximum": "४०.००",
+    "np_average": "३५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "बन्दा(नरिवल)",
+    "unit": "केजी",
+    "minimum": 30,
+    "maximum": 40,
+    "average": 35,
+    "np_minimum": "३०.००",
+    "np_maximum": "४०.००",
+    "np_average": "३५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "काउली स्थानिय",
+    "unit": "के.जी.",
+    "minimum": 40,
+    "maximum": 60,
+    "average": 50,
+    "np_minimum": "४०.००",
+    "np_maximum": "६०.००",
+    "np_average": "५०.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "स्थानीय काउली(ज्यापु)",
     "unit": "केजी",
     "minimum": 70,
     "maximum": 80,
@@ -96,117 +162,62 @@
     "np_minimum": "७०.००",
     "np_maximum": "८०.००",
     "np_average": "७५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "बन्दा(लोकल)",
-    "unit": "के.जी.",
-    "minimum": 20,
-    "maximum": 30,
-    "average": 25,
-    "np_minimum": "२०.००",
-    "np_maximum": "३०.००",
-    "np_average": "२५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "बन्दा(तराई)",
-    "unit": "केजी",
-    "minimum": 15,
-    "maximum": 25,
-    "average": 20,
-    "np_minimum": "१५.००",
-    "np_maximum": "२५.००",
-    "np_average": "२०.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "बन्दा(नरिवल)",
-    "unit": "केजी",
-    "minimum": 20,
-    "maximum": 25,
-    "average": 22.67,
-    "np_minimum": "२०.००",
-    "np_maximum": "२५.००",
-    "np_average": "२२.६७",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "काउली स्थानिय",
-    "unit": "के.जी.",
-    "minimum": 20,
-    "maximum": 30,
-    "average": 25,
-    "np_minimum": "२०.००",
-    "np_maximum": "३०.००",
-    "np_average": "२५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "स्थानीय काउली(ज्यापु)",
-    "unit": "केजी",
-    "minimum": 20,
-    "maximum": 35,
-    "average": 28.33,
-    "np_minimum": "२०.००",
-    "np_maximum": "३५.००",
-    "np_average": "२८.३३",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "काउली तराई",
     "unit": "के.जी.",
-    "minimum": 15,
-    "maximum": 20,
-    "average": 17.67,
-    "np_minimum": "१५.००",
-    "np_maximum": "२०.००",
-    "np_average": "१७.६७",
-    "date": "2025-01-15"
+    "minimum": 25,
+    "maximum": 30,
+    "average": 27.67,
+    "np_minimum": "२५.००",
+    "np_maximum": "३०.००",
+    "np_average": "२७.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "मूला रातो",
     "unit": "के.जी.",
-    "minimum": 20,
-    "maximum": 30,
-    "average": 25,
-    "np_minimum": "२०.००",
-    "np_maximum": "३०.००",
-    "np_average": "२५.००",
-    "date": "2025-01-15"
+    "minimum": 30,
+    "maximum": 40,
+    "average": 35,
+    "np_minimum": "३०.००",
+    "np_maximum": "४०.००",
+    "np_average": "३५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "मूला सेतो(लोकल)",
     "unit": "के.जी.",
-    "minimum": 30,
-    "maximum": 35,
-    "average": 32.67,
-    "np_minimum": "३०.००",
-    "np_maximum": "३५.००",
-    "np_average": "३२.६७",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "सेतो मूला(हाइब्रीड)",
-    "unit": "केजी",
     "minimum": 35,
     "maximum": 40,
     "average": 37.67,
     "np_minimum": "३५.००",
     "np_maximum": "४०.००",
     "np_average": "३७.६७",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
-    "commodity": "भन्टा लाम्चो",
-    "unit": "के.जी.",
+    "commodity": "सेतो मूला(हाइब्रीड)",
+    "unit": "केजी",
     "minimum": 40,
     "maximum": 50,
     "average": 45,
     "np_minimum": "४०.००",
     "np_maximum": "५०.००",
     "np_average": "४५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "भन्टा लाम्चो",
+    "unit": "के.जी.",
+    "minimum": 60,
+    "maximum": 70,
+    "average": 65,
+    "np_minimum": "६०.००",
+    "np_maximum": "७०.००",
+    "np_average": "६५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "भन्टा डल्लो",
@@ -217,7 +228,7 @@
     "np_minimum": "५०.००",
     "np_maximum": "६०.००",
     "np_average": "५५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "मकै बोडी",
@@ -228,10 +239,21 @@
     "np_minimum": "६०.००",
     "np_maximum": "७०.००",
     "np_average": "६५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "मटरकोशा",
+    "unit": "के.जी.",
+    "minimum": 100,
+    "maximum": 110,
+    "average": 105,
+    "np_minimum": "१००.००",
+    "np_maximum": "११०.००",
+    "np_average": "१०५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "घिउ सिमी(लोकल)",
     "unit": "के.जी.",
     "minimum": 80,
     "maximum": 90,
@@ -239,40 +261,29 @@
     "np_minimum": "८०.००",
     "np_maximum": "९०.००",
     "np_average": "८५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "घिउ सिमी(लोकल)",
-    "unit": "के.जी.",
-    "minimum": 60,
-    "maximum": 70,
-    "average": 65,
-    "np_minimum": "६०.००",
-    "np_maximum": "७०.००",
-    "np_average": "६५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "घिउ सिमी(हाइब्रीड)",
     "unit": "केजी",
-    "minimum": 60,
-    "maximum": 70,
-    "average": 65,
-    "np_minimum": "६०.००",
-    "np_maximum": "७०.००",
-    "np_average": "६५.००",
-    "date": "2025-01-15"
+    "minimum": 80,
+    "maximum": 90,
+    "average": 85,
+    "np_minimum": "८०.००",
+    "np_maximum": "९०.००",
+    "np_average": "८५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "घिउ सिमी(राजमा)",
     "unit": "केजी",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
+    "minimum": 120,
+    "maximum": 130,
+    "average": 125,
+    "np_minimum": "१२०.००",
+    "np_maximum": "१३०.००",
+    "np_average": "१२५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "टाटे सिमी",
@@ -283,10 +294,32 @@
     "np_minimum": "४०.००",
     "np_maximum": "५०.००",
     "np_average": "४५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "तितो करेला",
+    "unit": "के.जी.",
+    "minimum": 100,
+    "maximum": 110,
+    "average": 105,
+    "np_minimum": "१००.००",
+    "np_maximum": "११०.००",
+    "np_average": "१०५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "लौका",
+    "unit": "के.जी.",
+    "minimum": 70,
+    "maximum": 80,
+    "average": 75,
+    "np_minimum": "७०.००",
+    "np_maximum": "८०.००",
+    "np_average": "७५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "परवर(लोकल)",
     "unit": "के.जी.",
     "minimum": 90,
     "maximum": 100,
@@ -294,18 +327,7 @@
     "np_minimum": "९०.००",
     "np_maximum": "१००.००",
     "np_average": "९५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "लौका",
-    "unit": "के.जी.",
-    "minimum": 40,
-    "maximum": 50,
-    "average": 45,
-    "np_minimum": "४०.००",
-    "np_maximum": "५०.००",
-    "np_average": "४५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "परवर(तराई)",
@@ -316,40 +338,40 @@
     "np_minimum": "९०.००",
     "np_maximum": "१००.००",
     "np_average": "९५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "फर्सी पाकेको",
     "unit": "के.जी.",
-    "minimum": 40,
-    "maximum": 50,
-    "average": 45,
-    "np_minimum": "४०.००",
-    "np_maximum": "५०.००",
-    "np_average": "४५.००",
-    "date": "2025-01-15"
+    "minimum": 50,
+    "maximum": 60,
+    "average": 55,
+    "np_minimum": "५०.००",
+    "np_maximum": "६०.००",
+    "np_average": "५५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "फर्सी हरियो(लाम्चो)",
     "unit": "के.जी.",
-    "minimum": 10,
-    "maximum": 20,
-    "average": 15,
-    "np_minimum": "१०.००",
-    "np_maximum": "२०.००",
-    "np_average": "१५.००",
-    "date": "2025-01-15"
+    "minimum": 30,
+    "maximum": 40,
+    "average": 35,
+    "np_minimum": "३०.००",
+    "np_maximum": "४०.००",
+    "np_average": "३५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "हरियो फर्सी(डल्लो)",
     "unit": "केजी",
-    "minimum": 10,
-    "maximum": 20,
-    "average": 15,
-    "np_minimum": "१०.००",
-    "np_maximum": "२०.००",
-    "np_average": "१५.००",
-    "date": "2025-01-15"
+    "minimum": 30,
+    "maximum": 40,
+    "average": 35,
+    "np_minimum": "३०.००",
+    "np_maximum": "४०.००",
+    "np_average": "३५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "सलगम",
@@ -360,18 +382,18 @@
     "np_minimum": "९०.००",
     "np_maximum": "१००.००",
     "np_average": "९५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "भिण्डी",
     "unit": "के.जी.",
-    "minimum": 90,
-    "maximum": 100,
-    "average": 95,
-    "np_minimum": "९०.००",
-    "np_maximum": "१००.००",
-    "np_average": "९५.००",
-    "date": "2025-01-15"
+    "minimum": 120,
+    "maximum": 130,
+    "average": 125,
+    "np_minimum": "१२०.००",
+    "np_maximum": "१३०.००",
+    "np_average": "१२५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "सखरखण्ड",
@@ -382,95 +404,95 @@
     "np_minimum": "८०.००",
     "np_maximum": "९०.००",
     "np_average": "८५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "बरेला",
     "unit": "के.जी.",
-    "minimum": 30,
-    "maximum": 40,
-    "average": 35,
-    "np_minimum": "३०.००",
-    "np_maximum": "४०.००",
-    "np_average": "३५.००",
-    "date": "2025-01-15"
+    "minimum": 50,
+    "maximum": 60,
+    "average": 55,
+    "np_minimum": "५०.००",
+    "np_maximum": "६०.००",
+    "np_average": "५५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "पिंडालू",
     "unit": "के.जी.",
-    "minimum": 90,
-    "maximum": 100,
-    "average": 95,
-    "np_minimum": "९०.००",
-    "np_maximum": "१००.००",
-    "np_average": "९५.००",
-    "date": "2025-01-15"
+    "minimum": 80,
+    "maximum": 90,
+    "average": 85,
+    "np_minimum": "८०.००",
+    "np_maximum": "९०.००",
+    "np_average": "८५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "स्कूस",
     "unit": "के.जी.",
-    "minimum": 30,
-    "maximum": 40,
-    "average": 35,
-    "np_minimum": "३०.००",
-    "np_maximum": "४०.००",
-    "np_average": "३५.००",
-    "date": "2025-01-15"
+    "minimum": 25,
+    "maximum": 35,
+    "average": 30,
+    "np_minimum": "२५.००",
+    "np_maximum": "३५.००",
+    "np_average": "३०.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "रायो साग",
     "unit": "के.जी.",
-    "minimum": 10,
-    "maximum": 20,
-    "average": 15,
-    "np_minimum": "१०.००",
-    "np_maximum": "२०.००",
-    "np_average": "१५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "पालूगो साग",
-    "unit": "के.जी.",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "चमसूरको साग",
-    "unit": "के.जी.",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "तोरीको साग",
-    "unit": "के.जी.",
     "minimum": 30,
     "maximum": 40,
     "average": 35,
     "np_minimum": "३०.००",
     "np_maximum": "४०.००",
     "np_average": "३५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "पालूगो साग",
+    "unit": "के.जी.",
+    "minimum": 80,
+    "maximum": 90,
+    "average": 85,
+    "np_minimum": "८०.००",
+    "np_maximum": "९०.००",
+    "np_average": "८५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "चमसूरको साग",
+    "unit": "के.जी.",
+    "minimum": 80,
+    "maximum": 90,
+    "average": 85,
+    "np_minimum": "८०.००",
+    "np_maximum": "९०.००",
+    "np_average": "८५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "तोरीको साग",
+    "unit": "के.जी.",
+    "minimum": 40,
+    "maximum": 50,
+    "average": 45,
+    "np_minimum": "४०.००",
+    "np_maximum": "५०.००",
+    "np_average": "४५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "मेथीको साग",
     "unit": "के.जी.",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
+    "minimum": 80,
+    "maximum": 90,
+    "average": 85,
+    "np_minimum": "८०.००",
+    "np_maximum": "९०.००",
+    "np_average": "८५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "प्याज हरियो",
@@ -481,65 +503,21 @@
     "np_minimum": "५०.००",
     "np_maximum": "६०.००",
     "np_average": "५५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "बकूला",
     "unit": "के.जी.",
-    "minimum": 50,
-    "maximum": 60,
-    "average": 55,
-    "np_minimum": "५०.००",
-    "np_maximum": "६०.००",
-    "np_average": "५५.००",
-    "date": "2025-01-15"
+    "minimum": 110,
+    "maximum": 120,
+    "average": 115,
+    "np_minimum": "११०.००",
+    "np_maximum": "१२०.००",
+    "np_average": "११५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "तरुल",
-    "unit": "के.जी.",
-    "minimum": 90,
-    "maximum": 100,
-    "average": 95,
-    "np_minimum": "९०.००",
-    "np_maximum": "१००.००",
-    "np_average": "९५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "च्याउ(कन्य)",
-    "unit": "के.जी.",
-    "minimum": 90,
-    "maximum": 120,
-    "average": 106.67,
-    "np_minimum": "९०.००",
-    "np_maximum": "१२०.००",
-    "np_average": "१०६.६७",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "च्याउ(डल्ले)",
-    "unit": "के जी",
-    "minimum": 300,
-    "maximum": 350,
-    "average": 326.67,
-    "np_minimum": "३००.००",
-    "np_maximum": "३५०.००",
-    "np_average": "३२६.६७",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "ब्रोकाउली",
-    "unit": "के.जी.",
-    "minimum": 20,
-    "maximum": 30,
-    "average": 25,
-    "np_minimum": "२०.००",
-    "np_maximum": "३०.००",
-    "np_average": "२५.००",
-    "date": "2025-01-15"
-  },
-  {
-    "commodity": "चुकुन्दर",
     "unit": "के.जी.",
     "minimum": 70,
     "maximum": 80,
@@ -547,10 +525,32 @@
     "np_minimum": "७०.००",
     "np_maximum": "८०.००",
     "np_average": "७५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
-    "commodity": "रातो बन्दा",
+    "commodity": "च्याउ(कन्य)",
+    "unit": "के.जी.",
+    "minimum": 130,
+    "maximum": 140,
+    "average": 135,
+    "np_minimum": "१३०.००",
+    "np_maximum": "१४०.००",
+    "np_average": "१३५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "च्याउ(डल्ले)",
+    "unit": "के जी",
+    "minimum": 280,
+    "maximum": 320,
+    "average": 300,
+    "np_minimum": "२८०.००",
+    "np_maximum": "३२०.००",
+    "np_average": "३००.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "ब्रोकाउली",
     "unit": "के.जी.",
     "minimum": 50,
     "maximum": 60,
@@ -558,10 +558,21 @@
     "np_minimum": "५०.००",
     "np_maximum": "६०.००",
     "np_average": "५५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
-    "commodity": "जिरीको साग",
+    "commodity": "चुकुन्दर",
+    "unit": "के.जी.",
+    "minimum": 90,
+    "maximum": 100,
+    "average": 95,
+    "np_minimum": "९०.००",
+    "np_maximum": "१००.००",
+    "np_average": "९५.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "रातो बन्दा",
     "unit": "के.जी.",
     "minimum": 60,
     "maximum": 70,
@@ -569,18 +580,29 @@
     "np_minimum": "६०.००",
     "np_maximum": "७०.००",
     "np_average": "६५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "जिरीको साग",
+    "unit": "के.जी.",
+    "minimum": 90,
+    "maximum": 100,
+    "average": 95,
+    "np_minimum": "९०.००",
+    "np_maximum": "१००.००",
+    "np_average": "९५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "ग्याठ कोबी",
     "unit": "के.जी.",
-    "minimum": 80,
-    "maximum": 90,
-    "average": 85,
-    "np_minimum": "८०.००",
-    "np_maximum": "९०.००",
-    "np_average": "८५.००",
-    "date": "2025-01-15"
+    "minimum": 70,
+    "maximum": 80,
+    "average": 75,
+    "np_minimum": "७०.००",
+    "np_maximum": "८०.००",
+    "np_average": "७५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "सेलरी",
@@ -591,7 +613,7 @@
     "np_minimum": "३००.००",
     "np_maximum": "४००.००",
     "np_average": "३५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "पार्सले",
@@ -602,18 +624,18 @@
     "np_minimum": "७००.००",
     "np_maximum": "८००.००",
     "np_average": "७५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "सौफको साग",
     "unit": "के.जी.",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
+    "minimum": 90,
+    "maximum": 100,
+    "average": 95,
+    "np_minimum": "९०.००",
+    "np_maximum": "१००.००",
+    "np_average": "९५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "पुदीना",
@@ -624,7 +646,7 @@
     "np_minimum": "३००.००",
     "np_maximum": "४००.००",
     "np_average": "३५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "गान्टे मूला",
@@ -635,7 +657,7 @@
     "np_minimum": "७०.००",
     "np_maximum": "८०.००",
     "np_average": "७५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "इमली",
@@ -646,7 +668,7 @@
     "np_minimum": "१५०.००",
     "np_maximum": "१६०.००",
     "np_average": "१५५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "तामा",
@@ -657,7 +679,7 @@
     "np_minimum": "९०.००",
     "np_maximum": "१००.००",
     "np_average": "९५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "तोफु",
@@ -668,18 +690,18 @@
     "np_minimum": "११०.००",
     "np_maximum": "१२०.००",
     "np_average": "११५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "गुन्दुक",
     "unit": "के.जी.",
-    "minimum": 280,
+    "minimum": 250,
     "maximum": 300,
-    "average": 290,
-    "np_minimum": "२८०.००",
+    "average": 276.67,
+    "np_minimum": "२५०.००",
     "np_maximum": "३००.००",
-    "np_average": "२९०.००",
-    "date": "2025-01-15"
+    "np_average": "२७६.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "स्याउ(झोले)",
@@ -690,7 +712,7 @@
     "np_minimum": "२४०.००",
     "np_maximum": "२६०.००",
     "np_average": "२५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "स्याउ(फूजी)",
@@ -701,7 +723,7 @@
     "np_minimum": "२६०.००",
     "np_maximum": "३००.००",
     "np_average": "२८०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "केरा",
@@ -712,18 +734,18 @@
     "np_minimum": "१५०.००",
     "np_maximum": "१७०.००",
     "np_average": "१६०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "कागती",
     "unit": "के.जी.",
-    "minimum": 130,
-    "maximum": 140,
-    "average": 135,
-    "np_minimum": "१३०.००",
-    "np_maximum": "१४०.००",
-    "np_average": "१३५.००",
-    "date": "2025-01-15"
+    "minimum": 120,
+    "maximum": 130,
+    "average": 125,
+    "np_minimum": "१२०.००",
+    "np_maximum": "१३०.००",
+    "np_average": "१२५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "अनार",
@@ -734,40 +756,40 @@
     "np_minimum": "३५०.००",
     "np_maximum": "४००.००",
     "np_average": "३७६.६७",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "अंगुर(हरियो)",
     "unit": "के.जी.",
     "minimum": 200,
-    "maximum": 240,
-    "average": 223.33,
+    "maximum": 250,
+    "average": 226.67,
     "np_minimum": "२००.००",
-    "np_maximum": "२४०.००",
-    "np_average": "२२३.३३",
-    "date": "2025-01-15"
+    "np_maximum": "२५०.००",
+    "np_average": "२२६.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "अंगुर(कालो)",
     "unit": "केजी",
     "minimum": 350,
-    "maximum": 380,
-    "average": 366.67,
+    "maximum": 400,
+    "average": 376.67,
     "np_minimum": "३५०.००",
-    "np_maximum": "३८०.००",
-    "np_average": "३६६.६७",
-    "date": "2025-01-15"
+    "np_maximum": "४००.००",
+    "np_average": "३७६.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "सुन्तला(नेपाली)",
     "unit": "के.जी.",
-    "minimum": 110,
-    "maximum": 130,
-    "average": 120,
-    "np_minimum": "११०.००",
-    "np_maximum": "१३०.००",
-    "np_average": "१२०.००",
-    "date": "2025-01-15"
+    "minimum": 100,
+    "maximum": 120,
+    "average": 110,
+    "np_minimum": "१००.००",
+    "np_maximum": "१२०.००",
+    "np_average": "११०.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "सुन्तला(भारतीय)",
@@ -778,29 +800,29 @@
     "np_minimum": "९०.००",
     "np_maximum": "१००.००",
     "np_average": "९५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "काक्रो(लोकल)",
     "unit": "के.जी.",
-    "minimum": 130,
-    "maximum": 150,
-    "average": 140,
-    "np_minimum": "१३०.००",
-    "np_maximum": "१५०.००",
-    "np_average": "१४०.००",
-    "date": "2025-01-15"
+    "minimum": 110,
+    "maximum": 120,
+    "average": 115,
+    "np_minimum": "११०.००",
+    "np_maximum": "१२०.००",
+    "np_average": "११५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "काक्रो(हाइब्रीड)",
     "unit": "के जी",
-    "minimum": 120,
-    "maximum": 130,
-    "average": 125,
-    "np_minimum": "१२०.००",
-    "np_maximum": "१३०.००",
-    "np_average": "१२५.००",
-    "date": "2025-01-15"
+    "minimum": 80,
+    "maximum": 90,
+    "average": 85,
+    "np_minimum": "८०.००",
+    "np_maximum": "९०.००",
+    "np_average": "८५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "निबुवा",
@@ -811,7 +833,7 @@
     "np_minimum": "४०.००",
     "np_maximum": "५०.००",
     "np_average": "४५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "नासपाती(चाइनिज)",
@@ -822,18 +844,18 @@
     "np_minimum": "२३०.००",
     "np_maximum": "२५०.००",
     "np_average": "२४०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "मेवा(नेपाली)",
     "unit": "के.जी.",
-    "minimum": 40,
-    "maximum": 50,
-    "average": 45,
-    "np_minimum": "४०.००",
-    "np_maximum": "५०.००",
-    "np_average": "४५.००",
-    "date": "2025-01-15"
+    "minimum": 60,
+    "maximum": 70,
+    "average": 65,
+    "np_minimum": "६०.००",
+    "np_maximum": "७०.००",
+    "np_average": "६५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "मेवा(भारतीय)",
@@ -844,29 +866,29 @@
     "np_minimum": "९०.००",
     "np_maximum": "१००.००",
     "np_average": "९५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "अम्बा",
     "unit": "के.जी.",
     "minimum": 100,
-    "maximum": 110,
-    "average": 105,
+    "maximum": 120,
+    "average": 110,
     "np_minimum": "१००.००",
-    "np_maximum": "११०.००",
-    "np_average": "१०५.००",
-    "date": "2025-01-15"
+    "np_maximum": "१२०.००",
+    "np_average": "११०.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "लप्सी",
     "unit": "के.जी.",
-    "minimum": 40,
-    "maximum": 50,
-    "average": 45,
-    "np_minimum": "४०.००",
-    "np_maximum": "५०.००",
-    "np_average": "४५.००",
-    "date": "2025-01-15"
+    "minimum": 50,
+    "maximum": 60,
+    "average": 55,
+    "np_minimum": "५०.००",
+    "np_maximum": "६०.००",
+    "np_average": "५५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "स्ट्रबेरी भुईऐसेलु",
@@ -877,7 +899,7 @@
     "np_minimum": "४००.००",
     "np_maximum": "५००.००",
     "np_average": "४५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "किवि",
@@ -888,7 +910,18 @@
     "np_minimum": "२००.००",
     "np_maximum": "२५०.००",
     "np_average": "२२६.६७",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "शरीफा",
+    "unit": "के‍.जी",
+    "minimum": 200,
+    "maximum": 250,
+    "average": 226.67,
+    "np_minimum": "२००.००",
+    "np_maximum": "२५०.००",
+    "np_average": "२२६.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "आभोकाडो",
@@ -899,7 +932,7 @@
     "np_minimum": "२००.००",
     "np_maximum": "२५०.००",
     "np_average": "२२६.६७",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "अमला",
@@ -910,51 +943,62 @@
     "np_minimum": "६०.००",
     "np_maximum": "७०.००",
     "np_average": "६५.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "अदुवा",
     "unit": "के.जी.",
     "minimum": 110,
-    "maximum": 120,
-    "average": 115,
+    "maximum": 130,
+    "average": 120,
     "np_minimum": "११०.००",
-    "np_maximum": "१२०.००",
-    "np_average": "११५.००",
-    "date": "2025-01-15"
+    "np_maximum": "१३०.००",
+    "np_average": "१२०.००",
+    "date": "2024-12-26"
+  },
+  {
+    "commodity": "खु्र्सानी सुकेको",
+    "unit": "के.जी.",
+    "minimum": 380,
+    "maximum": 400,
+    "average": 390,
+    "np_minimum": "३८०.००",
+    "np_maximum": "४००.००",
+    "np_average": "३९०.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "खु्र्सानी हरियो",
     "unit": "के.जी.",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
+    "minimum": 60,
+    "maximum": 70,
+    "average": 65,
+    "np_minimum": "६०.००",
+    "np_maximum": "७०.००",
+    "np_average": "६५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "खुर्सानी हरियो(बुलेट)",
     "unit": "के जी",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
+    "minimum": 60,
+    "maximum": 70,
+    "average": 65,
+    "np_minimum": "६०.००",
+    "np_maximum": "७०.००",
+    "np_average": "६५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "खुर्सानी हरियो(माछे)",
     "unit": "के जी",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
+    "minimum": 90,
+    "maximum": 100,
+    "average": 95,
+    "np_minimum": "९०.००",
+    "np_maximum": "१००.००",
+    "np_average": "९५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "खुर्सानी हरियो(अकबरे)",
@@ -965,40 +1009,40 @@
     "np_minimum": "२८०.००",
     "np_maximum": "३००.००",
     "np_average": "२९०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "भेडे खु्र्सानी",
     "unit": "के.जी.",
-    "minimum": 70,
-    "maximum": 80,
-    "average": 75,
-    "np_minimum": "७०.००",
-    "np_maximum": "८०.००",
-    "np_average": "७५.००",
-    "date": "2025-01-15"
+    "minimum": 90,
+    "maximum": 100,
+    "average": 95,
+    "np_minimum": "९०.००",
+    "np_maximum": "१००.००",
+    "np_average": "९५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "लसुन हरियो",
     "unit": "के.जी.",
-    "minimum": 130,
-    "maximum": 150,
-    "average": 140,
-    "np_minimum": "१३०.००",
-    "np_maximum": "१५०.००",
-    "np_average": "१४०.००",
-    "date": "2025-01-15"
+    "minimum": 180,
+    "maximum": 200,
+    "average": 190,
+    "np_minimum": "१८०.००",
+    "np_maximum": "२००.००",
+    "np_average": "१९०.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "हरियो धनिया",
     "unit": "के.जी.",
-    "minimum": 50,
-    "maximum": 60,
-    "average": 55,
-    "np_minimum": "५०.००",
-    "np_maximum": "६०.००",
-    "np_average": "५५.००",
-    "date": "2025-01-15"
+    "minimum": 80,
+    "maximum": 90,
+    "average": 85,
+    "np_minimum": "८०.००",
+    "np_maximum": "९०.००",
+    "np_average": "८५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "लसुन सुकेको चाइनिज",
@@ -1009,7 +1053,7 @@
     "np_minimum": "२८०.००",
     "np_maximum": "३००.००",
     "np_average": "२९०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "लसुन सुकेको नेपाली",
@@ -1020,7 +1064,7 @@
     "np_minimum": "२८०.००",
     "np_maximum": "३००.००",
     "np_average": "२९०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "छ्यापी सुकेको",
@@ -1031,18 +1075,18 @@
     "np_minimum": "१४०.००",
     "np_maximum": "१६०.००",
     "np_average": "१५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "छ्यापी हरियो",
     "unit": "के.जी.",
-    "minimum": 200,
-    "maximum": 250,
-    "average": 226.67,
-    "np_minimum": "२००.००",
-    "np_maximum": "२५०.००",
-    "np_average": "२२६.६७",
-    "date": "2025-01-15"
+    "minimum": 150,
+    "maximum": 200,
+    "average": 176.67,
+    "np_minimum": "१५०.००",
+    "np_maximum": "२००.००",
+    "np_average": "१७६.६७",
+    "date": "2024-12-26"
   },
   {
     "commodity": "ताजा माछा(रहु)",
@@ -1053,7 +1097,7 @@
     "np_minimum": "३३०.००",
     "np_maximum": "३५०.००",
     "np_average": "३४०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "ताजा माछा(बचुवा)",
@@ -1064,7 +1108,7 @@
     "np_minimum": "२४०.००",
     "np_maximum": "२६०.००",
     "np_average": "२५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "ताजा माछा(छडी)",
@@ -1075,7 +1119,7 @@
     "np_minimum": "२४०.००",
     "np_maximum": "२६०.००",
     "np_average": "२५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "ताजा माछा(मुंगरी)",
@@ -1086,18 +1130,18 @@
     "np_minimum": "४००.००",
     "np_maximum": "४५०.००",
     "np_average": "४२६.६७",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "रुख टमाटर",
     "unit": "केजी",
-    "minimum": 140,
+    "minimum": 150,
     "maximum": 160,
-    "average": 150,
-    "np_minimum": "१४०.००",
+    "average": 155,
+    "np_minimum": "१५०.००",
     "np_maximum": "१६०.००",
-    "np_average": "१५०.००",
-    "date": "2025-01-15"
+    "np_average": "१५५.००",
+    "date": "2024-12-26"
   },
   {
     "commodity": "राजा च्याउ",
@@ -1108,7 +1152,7 @@
     "np_minimum": "२८०.००",
     "np_maximum": "३००.००",
     "np_average": "२९०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   },
   {
     "commodity": "सिताके च्याउ",
@@ -1119,6 +1163,6 @@
     "np_minimum": "७००.००",
     "np_maximum": "८००.००",
     "np_average": "७५०.००",
-    "date": "2025-01-15"
+    "date": "2024-12-26"
   }
 ]

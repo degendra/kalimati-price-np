@@ -76,6 +76,26 @@
               {{ item }}
             </option>
           </select>
+          <div class="price-cards">
+            <div class="price-card">
+              <div class="card-label">Last Week</div>
+              <div class="card-price">
+                <span class="np-price">रू {{ historicalData.lastWeekPrice.toFixed(2) }}</span>
+              </div>
+            </div>
+            <div class="price-card current">
+              <div class="card-label">Current</div>
+              <div class="card-price">
+                <span class="np-price">रू {{ historicalData.currentPrice.toFixed(2) }}</span>
+              </div>
+            </div>
+            <div class="price-card predicted">
+              <div class="card-label">Next Week (Predicted)</div>
+              <div class="card-price">
+                <span class="np-price">रू {{ historicalData.nextWeekPrice.toFixed(2) }}</span>
+              </div>
+            </div>
+          </div>
         </div>
         
         <PriceTrendChart
@@ -83,6 +103,7 @@
           :commodity="selectedCommodity"
           :dates="historicalData.dates"
           :prices="historicalData.prices"
+          :last-year-prices="historicalData.lastYearPrices"
         />
       </div>
 
@@ -224,9 +245,19 @@ async function loadPriceData() {
 
 // Get historical data for a commodity
 const historicalData = computed(() => {
-  if (!selectedCommodity.value) return { dates: [], prices: [] }
+  if (!selectedCommodity.value) return {
+    dates: [],
+    prices: [],
+    lastYearPrices: [],
+    currentPrice: 0,
+    lastWeekPrice: 0,
+    nextWeekPrice: 0
+  }
   
   const dates = Object.keys(allPriceData).sort()
+  const latestDate = dates[dates.length - 1]
+  
+  // Get current year's prices
   const prices = dates.map(date => {
     const item = allPriceData[date].find(
       item => item.commodity === selectedCommodity.value
@@ -234,7 +265,51 @@ const historicalData = computed(() => {
     return item ? item.average : 0
   })
   
-  return { dates, prices }
+  // Get last year's prices
+  const lastYearPrices = dates.map(date => {
+    const lastYearDate = new Date(date)
+    lastYearDate.setFullYear(lastYearDate.getFullYear() - 1)
+    const lastYearDateStr = lastYearDate.toISOString().split('T')[0]
+    const item = allPriceData[lastYearDateStr]?.find(
+      item => item.commodity === selectedCommodity.value
+    )
+    return item ? item.average : 0
+  })
+  
+  // Get current price
+  const currentItem = allPriceData[latestDate].find(
+    item => item.commodity === selectedCommodity.value
+  )
+  const currentPrice = currentItem?.average || 0
+  
+  // Get last week's price
+  const lastWeekDate = new Date(latestDate)
+  lastWeekDate.setDate(lastWeekDate.getDate() - 7)
+  const lastWeekDateStr = lastWeekDate.toISOString().split('T')[0]
+  const lastWeekItem = allPriceData[lastWeekDateStr]?.find(
+    item => item.commodity === selectedCommodity.value
+  )
+  const lastWeekPrice = lastWeekItem?.average || 0
+  
+  // Get next week's predicted price from last year's data
+  const nextWeekDate = new Date(latestDate)
+  nextWeekDate.setDate(nextWeekDate.getDate() + 7)
+  const lastYearNextWeekDate = new Date(nextWeekDate)
+  lastYearNextWeekDate.setFullYear(lastYearNextWeekDate.getFullYear() - 1)
+  const lastYearNextWeekStr = lastYearNextWeekDate.toISOString().split('T')[0]
+  const nextWeekItem = allPriceData[lastYearNextWeekStr]?.find(
+    item => item.commodity === selectedCommodity.value
+  )
+  const nextWeekPrice = nextWeekItem?.average || currentPrice
+  
+  return {
+    dates,
+    prices,
+    lastYearPrices,
+    currentPrice,
+    lastWeekPrice,
+    nextWeekPrice
+  }
 })
 
 const selectedCommodity = ref('')
@@ -619,9 +694,10 @@ tr:hover {
 
 .trend-header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  gap: 16px;
 }
 
 .trend-header h2 {
@@ -649,5 +725,52 @@ tr:hover {
   outline: none;
   border-color: #22c55e;
   box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+}
+
+.price-cards {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.price-card {
+  flex: 1;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-top: 3px solid #22c55e;
+}
+
+.price-card.current {
+  border-color: #3b82f6;
+  transform: scale(1.05);
+}
+
+.price-card.predicted {
+  border-color: #f59e0b;
+}
+
+.card-label {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 8px;
+}
+
+.card-price .np-price {
+  font-size: 1.5rem;
+  color: #166534;
+}
+
+@media (max-width: 768px) {
+  .price-cards {
+    flex-direction: column;
+  }
+  
+  .price-card.current {
+    transform: none;
+  }
 }
 </style> 

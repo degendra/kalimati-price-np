@@ -37,6 +37,7 @@ interface Props {
   commodity: string
   dates: string[]
   prices: number[]
+  lastYearPrices: number[]
 }
 
 const props = defineProps<Props>()
@@ -46,10 +47,18 @@ const chartData = computed(() => ({
   labels: props.dates,
   datasets: [
     {
-      label: props.commodity,
+      label: 'Current Price',
       data: props.prices,
       borderColor: '#22c55e',
       backgroundColor: 'rgba(34, 197, 94, 0.1)',
+      tension: 0.4,
+      fill: true
+    },
+    {
+      label: 'Last Year',
+      data: props.lastYearPrices,
+      borderColor: '#3b82f6',
+      backgroundColor: 'rgba(59, 130, 246, 0.1)',
       tension: 0.4,
       fill: true
     }
@@ -62,11 +71,25 @@ const chartOptions = {
   maintainAspectRatio: false,
   plugins: {
     legend: {
-      position: 'top' as const
+      position: 'top' as const,
+      align: 'start' as const,
+      labels: {
+        usePointStyle: true,
+        pointStyle: 'circle'
+      }
     },
     title: {
       display: true,
-      text: 'Price Trend'
+      text: `Price Comparison for ${props.commodity}`
+    },
+    tooltip: {
+      mode: 'index' as const,
+      intersect: false,
+      callbacks: {
+        label: (context: any) => {
+          return `${context.dataset.label}: रू ${context.parsed.y.toFixed(2)}`
+        }
+      }
     }
   },
   scales: {
@@ -74,7 +97,7 @@ const chartOptions = {
       beginAtZero: true,
       title: {
         display: true,
-        text: 'Price (Rs.)'
+        text: 'Price (रू)'
       }
     },
     x: {
@@ -83,6 +106,11 @@ const chartOptions = {
         text: 'Date'
       }
     }
+  },
+  interaction: {
+    mode: 'nearest' as const,
+    axis: 'x' as const,
+    intersect: false
   }
 }
 </script>

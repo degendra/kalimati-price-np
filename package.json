@@ -12,7 +12,8 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "combine": "node scripts/combineJsonFiles.cjs",
-    "scrape": "node scripts/kalimatiScraper.cjs"
+    "scrape": "node scripts/kalimatiScraper.cjs",
+    "history": "node scripts/kalimatiHistoricalScraper.cjs"
   },
   "dependencies": {
     "axios": "^1.6.7",

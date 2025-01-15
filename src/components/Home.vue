@@ -116,8 +116,8 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
-import { priceData as allPriceData } from '../assets/data/kalimati_prices'
-import type { PriceData } from '../assets/data/kalimati_prices'
+import { priceData as allPriceData } from '../assets/kalimati_prices'
+import type { PriceData } from '../assets/kalimati_prices'
 
 const priceData = ref<PriceData[]>([])
 const loading = ref(false)

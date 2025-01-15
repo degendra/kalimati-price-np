@@ -63,6 +63,29 @@
         </div>
       </div>
 
+      <!-- Price Trend Section -->
+      <div class="trend-section" v-if="!error">
+        <div class="trend-header">
+          <h2>Historical Price Trend</h2>
+          <select v-model="selectedCommodity">
+            <option value="">Select an item</option>
+            <option v-for="item in COMMON_ITEMS.vegetables" :key="item">
+              {{ item }}
+            </option>
+            <option v-for="item in COMMON_ITEMS.fruits" :key="item">
+              {{ item }}
+            </option>
+          </select>
+        </div>
+        
+        <PriceTrendChart
+          v-if="selectedCommodity"
+          :commodity="selectedCommodity"
+          :dates="historicalData.dates"
+          :prices="historicalData.prices"
+        />
+      </div>
+
       <!-- Table Section -->
       <div class="price-table">
         <table>
@@ -118,6 +141,7 @@
 import { ref, onMounted, computed } from 'vue'
 import { priceData as allPriceData } from '../assets/kalimati_prices'
 import type { PriceData } from '../assets/kalimati_prices'
+import PriceTrendChart from './PriceTrendChart.vue'
 
 const priceData = ref<PriceData[]>([])
 const loading = ref(false)
@@ -198,8 +222,27 @@ async function loadPriceData() {
   }
 }
 
+// Get historical data for a commodity
+const historicalData = computed(() => {
+  if (!selectedCommodity.value) return { dates: [], prices: [] }
+  
+  const dates = Object.keys(allPriceData).sort()
+  const prices = dates.map(date => {
+    const item = allPriceData[date].find(
+      item => item.commodity === selectedCommodity.value
+    )
+    return item ? item.average : 0
+  })
+  
+  return { dates, prices }
+})
+
+const selectedCommodity = ref('')
+
 onMounted(() => {
   loadPriceData()
+  // Set first vegetable as default selected item
+  selectedCommodity.value = COMMON_ITEMS.vegetables[0]
 })
 </script>
 
@@ -568,5 +611,43 @@ tr:hover {
 .source-link a:hover {
   color: #22c55e;
   text-decoration: underline;
+}
+
+.trend-section {
+  margin-bottom: 30px;
+}
+
+.trend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.trend-header h2 {
+  color: #166534;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.trend-header select {
+  padding: 8px 16px;
+  border: 2px solid #4ade80;
+  border-radius: 8px;
+  background: white;
+  color: #166534;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.trend-header select:hover {
+  border-color: #22c55e;
+}
+
+.trend-header select:focus {
+  outline: none;
+  border-color: #22c55e;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
 }
 </style> 
